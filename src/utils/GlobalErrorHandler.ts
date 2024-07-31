@@ -14,4 +14,4 @@ const globalErrorHandler = (
   });
 };
 
-export default globalErrorHandler
+export default globalErrorHandler;
