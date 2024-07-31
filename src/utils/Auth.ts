@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import AppError from "./AppError";
 import { User } from "../models/userModel";
-const expressAsyncHandler = require("express-async-handler");
+import expressAsyncHandler from "./expressAsyncHandler";
 
 const auth = expressAsyncHandler(
   async (req: Request, res: Response, next: NextFunction) => {
